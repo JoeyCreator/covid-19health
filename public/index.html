@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Covid-19 Health</title>
+    <meta
+      name="google-site-verification"
+      content="SI4OGcSIemcBcXdWxhZ8dI-Bg-yt-1DijBUlmTqDMAo"
+    />
+    <meta name="Covid-19Health" content="Covid-19Health" />
+    <meta name="keywords" content="Covid-19, Health, Emergency" />
+    <meta name="author" content="Joey Cadieux" />
+    <meta
+      name="googlebot"
+      content="For the most up to date information regarding COVID-19 in Canada, please consult World Health Organization. This site should not be used for life saving information - instead, rather, a source for numbers and statistics."
+    />
+    <meta
+      name="Covid-19Health"
+      content="For the most up to date information regarding COVID-19 in Canada, please consult World Health Organization. This site should not be used for life saving information - instead, rather, a source for numbers and statistics.."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-154409943-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-154409943-2");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MP9DHXV");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MP9DHXV"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDlAK5EdpP0AqgelInMK-5MBMZpAQzmMDE",
+        authDomain: "covid-19health.firebaseapp.com",
+        databaseURL: "https://covid-19health.firebaseio.com",
+        projectId: "covid-19health",
+        storageBucket: "covid-19health.appspot.com",
+        messagingSenderId: "1041900846777",
+        appId: "1:1041900846777:web:bffc64c29cc6cc0d8ba568",
+        measurementId: "G-JFYEMCMY8Z"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <noscript>
+      <strong
+        >We're sorry but Tracking Covid-19 doesn't work properly without
+        JavaScript enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
